@@ -22,7 +22,49 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+#### Configure
+```ruby
+Optimizely::Experiments.configure do |experiments|
+  experiments[:example_1] = true
+end
+```
+
+#### All
+```ruby
+Optimizely::Experiments.all # => { example_1: true }
+```
+
+#### Add
+```ruby
+ Optimizely::Experiments.add(:example_1, true)
+```
+
+#### Load File
+```ruby
+Optimizely::Experiments.load_file("example.json")
+```
+
+#### Activate
+```ruby
+Optimizely::Experiments.activate(:example_1) # => true
+```
+
+#### Deactivate
+```ruby
+Optimizely::Experiments.deactivate(:example_1) # => false
+```
+
+#### Activated?
+```ruby
+Optimizely::Experiments.activated?(:example_1) # => true
+```
+
+#### While Activated
+```ruby
+Optimizely::Experiments.while_activated(:example_1) do
+  # Code you wish you had...
+end
+```
 
 ## Development
 
