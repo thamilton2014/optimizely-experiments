@@ -1,4 +1,7 @@
 require "optimizely/experiments/version"
+require "optimizely/experiments/config"
+require "json"
+require "yaml"
 
 module Optimizely
   class << self
@@ -23,7 +26,7 @@ module Optimizely
     #   Optimizely.all
     #
     def all
-      Experiments.all
+      # TBD
     end
 
     # Description:
@@ -37,7 +40,7 @@ module Optimizely
     # @param [Boolean] value - Enables or disables the experiment/feature based on boolean value.
     #
     def add(name, value)
-      Experiments.add(name, value)
+      # TBD
     end
 
     # Description:
@@ -50,7 +53,7 @@ module Optimizely
     # @param [String] file_path - The path to the file including the file name and extension.
     #
     def load_file(file_path)
-      Experiments.load_file(file_path)
+      # TBD
     end
 
     # Description:
@@ -65,7 +68,7 @@ module Optimizely
     # @param [File] file
     #
     def load_yaml(file)
-      Experiments.load_yaml(file)
+      # TBD
     end
 
     # Description:
@@ -79,7 +82,7 @@ module Optimizely
     # @param [File] file
     #
     def load_json(file)
-      Experiments.load_json(file)
+      # TBD
     end
 
     # Description:
@@ -91,7 +94,7 @@ module Optimizely
     # @param [Symbol] name - The experiment/feature to enable.
     #
     def activate(name)
-      Experiments.activate(name)
+      # TBD
     end
 
     # Description:
@@ -104,7 +107,7 @@ module Optimizely
     # @param [Symbol] name - The experiment/feature to enable.
     #
     def activated?(name)
-      Experiments.activated?(name)
+      # TBD
     end
 
     # Description:

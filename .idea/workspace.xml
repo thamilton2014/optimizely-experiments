@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8057c268-a949-4539-bc07-bfaff49684e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example_2.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/optimizely/experiments/config.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/example.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/example.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/example.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/functional/google_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/functional/pages/google.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/optimizely.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/optimizely.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example.rb" beforeDir="false" afterPath="$PROJECT_DIR$/example.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/optimizely.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/optimizely.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/optimizely/experiments.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/optimizely/experiments.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/optimizely/experiments/experiment.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/optimizely/experiments/features.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/optimizely-experiments.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/optimizely-experiments.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/optimizely_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/optimizely_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,20 +32,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="23" lean-forward="true" selection-start-line="7" selection-end-line="23" />
+            <state relative-caret-position="78">
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/optimizely/experiments.rb">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/optimizely.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="76">
+              <caret line="109" column="11" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -137,9 +126,9 @@
         <option value="$PROJECT_DIR$/test/fixtures/example.yml" />
         <option value="$USER_HOME$/.rvm/gems/ruby-2.6.0/gems/optimizely-experiments-0.1.0/lib/optimizely/experiments.rb" />
         <option value="$PROJECT_DIR$/test/fixtures/example.yaml" />
+        <option value="$PROJECT_DIR$/example.rb" />
         <option value="$PROJECT_DIR$/lib/optimizely/experiments.rb" />
         <option value="$PROJECT_DIR$/lib/optimizely.rb" />
-        <option value="$PROJECT_DIR$/example.rb" />
       </list>
     </option>
   </component>
@@ -254,10 +243,10 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16666667" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16666667" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32899868" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.22106633" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.40052015" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="4" />
@@ -492,24 +481,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/optimizely/experiments.rb">
+    <entry file="file://$PROJECT_DIR$/example.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="78">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/optimizely/experiments.rb">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/optimizely.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="23" lean-forward="true" selection-start-line="7" selection-end-line="23" />
+        <state relative-caret-position="76">
+          <caret line="109" column="11" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
         </state>
       </provider>
     </entry>

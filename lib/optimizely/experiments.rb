@@ -1,9 +1,3 @@
-require "optimizely/experiments/version"
-require "optimizely/experiments/config"
-
-require "json"
-require "yaml"
-
 module Optimizely
   module Experiments
 

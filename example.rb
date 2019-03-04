@@ -1,10 +1,10 @@
-require "optimizely/experiments"
+require "optimizely"
 
 Optimizely::Experiments.configure do |experiments|
   experiments[:example_1] = true
 end
 
-puts Optimizely.methods.sort
+puts Optimizely.all
 #
 # Optimizely::Experiments.load_file("test/fixtures/example.json")
 #
