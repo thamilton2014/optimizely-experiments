@@ -1,0 +1,6 @@
+#
+# This is an example key/value pair yaml file.
+#
+---
+example_1: true
+example_2: false
